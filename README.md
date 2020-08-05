@@ -1,1 +1,0 @@
-# microsoftcloud-config
