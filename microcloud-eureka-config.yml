@@ -4,8 +4,8 @@ spring:
     - dev
 ---
 spring:
-  profiles:
-  application: dev
+  profiles: dev
+  application:
     name: microsoftcloud-config-eureka
 server:
   port: 7001
@@ -19,8 +19,8 @@ eureka:
       defaultZone: http://eureka7001.com:7001/eureka/
 ---
 spring:
-  profiles:
-  application: test
+  profiles: test
+  application:
     name: microsoftcloud-config-eureka
 server:
   port: 7002
