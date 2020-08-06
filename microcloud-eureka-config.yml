@@ -7,10 +7,8 @@ spring:
   profiles:
   application: dev
     name: microsoftcloud-config-eureka
-    
 server:
   port: 7001
-
 eureka:
   instance:
     hostname: eureka7001.com
@@ -25,10 +23,8 @@ spring:
   profiles:
   application: test
     name: microsoftcloud-config-eureka
-    
 server:
   port: 7002
-
 eureka:
   instance:
     hostname: eureka7002.com
