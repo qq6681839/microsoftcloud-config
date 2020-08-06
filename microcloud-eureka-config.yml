@@ -5,9 +5,8 @@ spring:
 ---
 spring:
   profiles:
-  application:
+  application: dev
     name: microsoftcloud-config-eureka
-    - dev
     
 server:
   port: 7001
@@ -24,9 +23,8 @@ eureka:
 ---
 spring:
   profiles:
-  application:
+  application: test
     name: microsoftcloud-config-eureka
-    - dev
     
 server:
   port: 7002
